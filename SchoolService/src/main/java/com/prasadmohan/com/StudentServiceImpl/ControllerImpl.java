@@ -3,22 +3,25 @@
  */
 package com.prasadmohan.com.StudentServiceImpl;
 
-import com.prasadmohan.com.StudentServiceApi.*;
 /**
  * @author mohankumara.kb
  * 
  *
  */
 public class ControllerImpl {
-
+ private String mohan;
+ 
 	public String test() {
-		return "Hello World!";
+		return mohan;
+	}
+
+	public String getMohan() {
+		return mohan;
+	}
+
+	public void setMohan(String mohan) {
+		this.mohan = mohan;
 	}
 	
-	 static 
-	    {
-	        //SpringApplication.run(Main.class);
-		 System.out.println("gkjggfuikfvku");
-	    }
 	
 }
